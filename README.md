@@ -62,7 +62,7 @@ Heb gewerkt met verschillende soorten code (ejs, css, serverside-js en clientsid
 
 In deze fase is dat ik mijn werk push naar mijn git repo en vervolgens om de tijd er een pull request er van maak. Deze pull request is nodig, omdat ik met de opdracht gever heb afgesproken dat hij af en toe naar mijn code kan kijken en vervolgens er feedback op kan geven.
 
-In deze integratie fase zie je dus hoe ik een pull request maake n wat ik daar allemaal inzet
+In deze integratie fase zie je dus hoe ik een pull request maak en wat ik daar allemaal inzet
 
 **__testen__**
 
@@ -70,7 +70,7 @@ In deze fase voer ik verschillende tests uit om er zeker van te zijn dat het wer
 
 De eerste test die ik heb gedaan is een performance test waarbij ik kijk hoe goed alles op mijn website runt.
 
-De 2de test is een user test
+De 2de test is een user test. Waarbij een user gaat kijken of de scenarios die ik heb geschreven ook duidelijk zijn op mijn website en geeft eventueel feedback.
 
 De 3de test is een korte pe (progressive enhanccement test). Bij zo'n Pe test kijk ik of alles werkend is wanneer javascript uit staat en ook css. Als iets ontbreekt of iets niet werkend is laat ik vervolgens zien hoe ik dat heb opgelost
 
@@ -78,9 +78,13 @@ De 3de test is een korte pe (progressive enhanccement test). Bij zo'n Pe test ki
 <!-- Bij Instalatie staat hoe een andere developer aan jouw repo kan werken -->
 1. clone de code. klik op de groene knop code en clone het of download zip.
 2. als je node hebt open je de terminal. Boven aan vind je de terminal button of klik ctrl +  `
-3. dan type npm start of npm run dev om de server te starten
-4. wil je de server sluiten doe dan dit in de terminal ctrl + c
+3. type `npm install` om alle packages te downloaden om de server te kunnen starten. 
+4. dan type npm start of npm run dev om de server te starten.
+5. wil je de server sluiten doe dan dit in de terminal ctrl + c.
+
 ## 📗Bronnen
+
+link van mijn site: https://proof-of-concept-tw2p.onrender.com/
 
 ## 🖋️Licentie
 
