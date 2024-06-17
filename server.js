@@ -58,8 +58,6 @@ app.get("/lijsten", async function (request, response) {
   }
 });
 
-
-
 app.get('/lijsten/:id', function (request, response) {
   fetchJson(apiList + request.params.id + '?fields=*.*.*,houses.f_houses_id.poster_image.id,houses.f_houses_id.poster_image.width,houses.f_houses_id.poster_image.height')
     .then((apiData) => {
@@ -74,8 +72,6 @@ app.get('/lijsten/:id', function (request, response) {
       response.status(500).send('Internal Server Error');
     });
 });
-
-
 
   app.post('/lijsten/:id', function(request, response) {
     let body = JSON.stringify({
@@ -118,9 +114,7 @@ app.get('/lijsten/:id', function (request, response) {
     }
   });
 
-
 // 3. Start the web server
-
 // Set the port number for express to listen on
 app.set('port', process.env.PORT || 8000);
 
