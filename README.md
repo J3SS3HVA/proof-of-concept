@@ -53,6 +53,10 @@ De laatste schets is een zero state schets. Deze schets geeft mij beeld hoe de `
 
 Heb gewerkt met verschillende soorten code (ejs, css, serverside-js en clientside-js)
 
+* node: dit project werkt met node.js
+* de package die erbij hoort is express: die gebruik ik voor server.js
+* nodemon: dit is optional, maar wel een handige toel om te gebruiken
+
 * ejs: Deze sprint heb ik vergeleken met de andere sprints meer met partials gewerkt. Partials zijn bepaalde onderdelen die je in een ejs file maakt en vervolgens in een andere ejs kan stoppen met `<%- include('nav.ejs') %>`.
 * css: hier is niet veel bijzonders. Wat hier anders is is dat de pagina's nu hun eigen css file hebben om de code meer leesbaar te maken.
 * serverside-JS: met de server js zorg ik ervoor dat elke pagina de juist data krijgt. Naast dat heb ik met de server ook een functie kunnen maken dat je je star rating op een bepaald his kan sturen naar de directus api met een post method
